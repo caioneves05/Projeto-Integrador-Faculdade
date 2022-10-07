@@ -129,8 +129,7 @@ footer > a >img:hover{
     header > h1{
         text-align: center;
     }
-    .capa-zologico{
-        width: 100%;
-    }
-    
+    .capa-zologico-img{
+        width: 355px;
+    }   
 }

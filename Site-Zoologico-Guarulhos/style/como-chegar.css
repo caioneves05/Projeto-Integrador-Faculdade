@@ -99,3 +99,24 @@ footer > a >img:hover{
     border-radius: 5px;
     transition: 0.8s;
 }
+@media (max-width: 700px){
+    .avaliacoes > img:nth-child(-n + 2){
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar > a{
+        margin: 15px;
+    }
+    .capa-zologico-img{
+        width: 355px;
+    }
+    .header-h1{
+        text-align: center;
+    }
+    .header-img{
+        width: 90%;
+    }
+}
