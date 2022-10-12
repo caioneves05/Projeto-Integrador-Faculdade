@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
 </head>
 <body>
     <div class="navbar">
@@ -14,7 +15,7 @@
     <div class="logo-apresentação">
         <img src="Style/banner-trabalho.png" alt="#">
     </div>
-    <div class="cadastramento">
+    <div class="form-cadastro">
         <h1>
             Cadastre-se para receber nossos E-Books
         </h1>
@@ -23,24 +24,31 @@
             <label for="nome">Nome</label>
             <input type="email" id="cadastro-nome">
             
+            <label for="senha">Senha</label>
+            <input type="password" name="cadastro-senha" id="cadastro-senha">
+
+            <label for="cpf">CPF</label>
+            <input type="text" name="cadastro-cpf" id="cadastro-cpf" placeholder="000.000.000-00">
+
             <label for="email">E-mail</label>
             <input type="text" id="cadastro-email">
+            
             <label for="telefone">Telefone</label>
-            <input type="number" id="cadastro-telefone">
+            <input type="tel" id="cadastro-telefone">
+            
             <input type="checkbox" name="gastronomia" id="cadastro-gastronomia">
             <label for="cadastro-gastronomia" id="gastronomia">Gastronomia</label>
+            
             <input type="checkbox" name="confeitaria" id="cadastro-confeitaria">
             <label for="confeitaria" id="cadastro_confeitaria">Confeitaria</label>
+           
             <button type="submit" id="cadastro-submit">Cadastrar</button>
 
             <p>Ja tem cadastro? <a href="#">Faça Login</a></p>
         </div>
     </div>
     <footer>
-        <a href="">
-            <p>[LOGO DO GITHUB CLICÁVEL]</p>
-            <img src="#" alt="#">
-        </a>
+
     </footer>
 </body>
 </html>
