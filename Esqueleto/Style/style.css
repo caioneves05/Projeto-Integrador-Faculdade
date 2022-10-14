@@ -85,6 +85,10 @@ header > p{
     outline: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.137);
 }
+.cadastramento-inputs > input:hover{
+    border-bottom: 1px solid #750d10;
+    transition: 0.5s ease-in;
+}
 .cadastramento-inputs > input::placeholder{
     color: rgba(0, 0, 0, 0.377);
 }
