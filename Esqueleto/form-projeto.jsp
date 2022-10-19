@@ -1,0 +1,3 @@
+<%
+    String vnome = request.geParameter
+%>
