@@ -9,14 +9,28 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
-    min-width: 100vw;
+
     
 }
-.logo-apresentação{
+.apresentação{
     display: flex;
     justify-content: center;
     box-shadow: 1px 0.5px 10px rgba(0, 0, 0, 0.24);
+    height: 140px;
+    background-color: #451405;
+    width: 100%;
+}
+.apresentacao-titulo > h1{
+    color: #f7d5a1;
+    text-shadow: 1px 1px 10px black;
+    font-size: 55px;
+    margin-left: 20px;
+}
+.apresentacao-titulo > h2{
+    color: #f7d5a1;
+    text-shadow: 1px 1px 10px black;
+    font-size: 35px;
+    margin-left: 10px
 }
 .navbar{
     background-color: #1b1b1b;
@@ -46,38 +60,42 @@ body{
 header{
     margin-top: 30px;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.788);
     width: 390px;
-    height: 600px;
+    height:340px;
     padding: 15px;
     border-radius: 40px;
     box-shadow: 1px 0.5px 10px rgba(0, 0, 0, 0.219);
 }
-header > h1{
+header> h1{
     font-size: 30px;
     text-align: center;
     font-weight: 500;
+    color: #ebcd97;
+    text-shadow: 1px 1px 8px black;
 }
 header > p{
     text-align: left;
     margin-top: 10px;
     font-weight: 400;
+    color: white;
 }
 .form-cadastro{
     display: flex;
     flex-direction: column;
     margin-top: 35px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.788);
     max-width: 350px;
     min-height: 40vh;
     padding: 2rem;
     border-radius: 30px;
-    box-shadow: 1px 0.5px 10px rgba(0, 0, 0, 0.219);
+
 }
 .form-cadastro > h1{
     font-size: 24px;
     text-align: center;
     font-weight: 600;
+    color: #ebcd97;
 }
 .cadastramento-inputs > input{
     width: 280px;
@@ -85,6 +103,8 @@ header > p{
     border: none;
     outline: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 17px;
+    margin-top: 8px;
 }
 .cadastramento-inputs > input:hover{
     border-bottom: 1px solid #750d10;
@@ -92,10 +112,21 @@ header > p{
 }
 .cadastramento-inputs > input::placeholder{
     color: rgba(0, 0, 0, 0.377);
+    padding-left: 20px;
+}
+.cadastramento-inputs > label{
+    color: white;
 }
 .checkbox-style{
     margin: 10px 0px 10px 10px;
 }
+.checkbox-style > input{
+    margin-left: 14px;
+}
+.checkbox-style > label{
+    color: white;
+}
+
 button{
     padding: 10px;
     width: 290px;
@@ -112,10 +143,14 @@ button:hover{
     transition: 0.7s ease;
     cursor: pointer;
 }
+.cadastramento-footer{
+    color: white;
+}
 .cadastramento-footer > a{
     text-decoration: none;
-    color: #750d10;
+    color: #C12D33;
     font-weight: 600;
+    font-size: 18px;
 }
 .cadastramento-footer > a:hover{
     border-bottom: 1.9px solid #750d10;
