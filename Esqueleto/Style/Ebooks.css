@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("Wallpaper-body.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.apresentação{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 0.5px 10px rgba(0, 0, 0, 0.24);
+    height: 140px;
+    background-color: #451405;
+    width: 100%;
+}
+.apresentacao-titulo > h1{
+    color: #f7d5a1;
+    text-shadow: 1px 1px 10px black;
+    font-size: 55px;
+    margin-left: 20px;
+}
+.apresentacao-titulo > h2{
+    color: #f7d5a1;
+    text-shadow: 1px 1px 10px black;
+    font-size: 35px;
+    margin-left: 10px
+}
+.navbar{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 0.5px 10px rgba(0, 0, 0, 0.24);
+}
+.navbar > a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff4e4;
+    font-weight: 600;
+    font-size: 18px;
+    text-shadow: 1px 0.3px 2px rgba(0, 0, 0, 0.568);
+}
+.navbar > a:hover{
+    color: #C12D33;
+    transition: 0.6s;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ebooks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.ebook1, .ebook2, .ebook3, .ebook4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.ebook1 > p, .ebook2 > p, .ebook3 > p, .ebook4 > p{
+    background-color: #451405e3;
+    width: 270px;
+    height: 180px;
+    color: #f7d5a1;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: left;
+    margin-top: 20px;
+}
