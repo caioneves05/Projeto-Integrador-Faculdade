@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <div class="apresentação">
+        <img src="Style/logo-site-instituto-gourmet.png" alt="logo-site-instituto-gourmet">
+        <div class="apresentacao-titulo">
+            <h1>Instituto</h1>
+            <h2>Gourmet</h2>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="Ebooks.html">E-Books</a>
+        <a href="#">Home</a>
+        <a href="#">Faça Login</a>
+    </div>
+    <div class="home">
+        <header>
+            <h1>Bibioteca Gourmet</h1>
+            <p> A plataforma biblioteca gourmet foi idealizada com o pensamento de expandir a culinária no Brasil.
+                Nossos conteúdos são de fácil acesso e intuitivos, viablizando que qualquer e-book possar ser
+                apresentado em salas de aula, projetos sociais e até mesmo transmitir o primeiro contato com a culinária
+                para as crianças.
+                Nosso conteúdo é totalmente gratuito, e abordamos diversos pontos de vista e receitas sobre a nossa
+                cultura, no qual você poderá ampliar seus conhecimentos, e poderá aprender a fazer aquela receitinha
+                para quem você ama não é mesmo?</p>
+        </header>
+        <div class="form-cadastro">
+            <h1>
+                Cadastre-se para receber nossos E-Books
+            </h1>
+
+            <form action="form-projeto.php" method="post" class="cadastramento-inputs">
+                <label for="nome">Nome</label>
+                <input type="nome" id="cadastroNome" placeholder="Enter yout name" name="cadastroNome">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="cadastroEmail" placeholder="Enter your email" name="cadastroEmail">
+
+
+                <label for="senha">Senha</label>
+                <input type="password" id="cadastroSenha" placeholder="**********" name="cadastroSenha">
+
+
+                <label for="cpf">CPF</label>
+                <input type="text" id="cadastroCpf" placeholder="000.000.000-00" name="cadastroCpf">
+
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="cadastroTelefone" placeholder="+55 (00)000000000" name="cadastroTelefone">
+
+                <div class="checkbox-style">
+                    <input type="checkbox" id="cadastroGastronomia" name="cadastroGastronomia">
+                    <label for="cadastro-gastronomia" id="gastronomia">Gastronomia</label>
+                    <input type="checkbox" id="cadastroConfeitaria" name="cadastroConfeitaria">
+                    <label for="confeitaria" id="confeitaria">Confeitaria</label>
+                </div>
+
+                <button type="submit" id="cadastro-submit">Cadastrar</button>
+                <p class="cadastramento-footer">Ja tem cadastro? <a href="#">Faça Login</a></p>
+            </form>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
