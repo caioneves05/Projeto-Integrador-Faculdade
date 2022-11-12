@@ -30,24 +30,34 @@
                 Cadastre-se para receber nossos E-Books
             </h1>
         
-            <form action="form-projeto.jsp" method="post" class="cadastramento-inputs">
-                <label for="nome">Nome</label>
-                <input type="nome" id="cadastro-nome" placeholder="Enter yout name" name="cadastro-nome">
+            <form action="form-projeto.jsp" method="post" class="cadastramento-inputs" id="form">
+                <label for="nome"
+                class="label-input">Nome</label>
+                <input type="nome" id="cadastro-nome" placeholder="Enter yout name" name="cadastro-nome" oninput="validateName()">
+                <span class="spanRequired">Nome deve ter no mínimo 3 caracteres</span>
 
-                <label for="email">E-mail</label>
-                <input type="email" id="cadastro-email" placeholder="Enter your email" name="cadastro-email">
+                <label for="email"
+                class="label-input">E-mail</label>
+                <input type="email" id="cadastro-email" placeholder="Enter your email" name="cadastro-email" oninput="emailValidate()">
+                <span class="spanRequired">Por favor digite um email válido. </span>
 
 
-                <label for="senha">Senha</label>
-                <input type="password" name="cadastro-senha" id="cadastro-senha" placeholder="**********" name="cadastro-senha">
+                <label for="senha"
+                class="label-input">Senha</label>
+                <input type="password" name="cadastro-senha" id="cadastro-senha" placeholder="**********" name="cadastro-senha" oninput="validatePassword()">
+                <span class="spanRequired">A senha deve ter no mínimo 8 caracteres.</span>
                 
 
-                <label for="cpf">CPF</label>
-                <input type="text" name="cadastro-cpf" id="cadastro-cpf" placeholder="000.000.000-00" name="cadastro-cpf">
+                <label for="cpf"
+                class="label-input">CPF</label>
+                <input type="text" name="cadastro-cpf" id="cadastro-cpf" placeholder="000.000.000-00" name="cadastro-cpf" oninput="validateCpf()">
+                <span class="spanRequired">Digite um CPF válido.</span>
                 
                 
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="cadastro-telefone" placeholder="+55 (00)000000000" name="cadastro-telefone">
+                <label for="telefone"
+                class="label-input">Telefone</label>
+                <input type="tel" id="cadastro-telefone" placeholder="+55 (00)000000000" name="cadastro-telefone" oninput="validatePhone()">
+                <span class="spanRequired">Digite um telefone válido.</span>
         
                 <div class="checkbox-style">
                     <input type="checkbox" name="gastronomia" id="cadastro-gastronomia">
@@ -56,13 +66,11 @@
                     <label for="confeitaria" id="cadastro_confeitaria">Confeitaria</label>
                 </div>
         
-                <button type="submit" id="cadastro-submit">Cadastrar</button>
+                <button type="submit" id="cadastro-submit">Cadastrar <a href="download-ebooks.html"></a></button>
                 <p class="cadastramento-footer">Ja tem cadastro? <a href="#">Faça Login</a></p>
             </form>
     </div>
     </div>
-    <footer>
-
-    </footer>
 </body>
 </html>
+<script src="index.js"></script>
