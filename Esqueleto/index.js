@@ -3,15 +3,15 @@ const campos = document.querySelectorAll('input');
 const spam = document.querySelectorAll('span');
 const emailRegex = /\S+@\S+\.\S+/;
 const phoneRegex = /^(?:(?:\+|00)?(55)\s?)?(?:\(?([1-9][0-9])\)?\s?)(?:((?:9\d|[2-9])\d{3})\-?(\d{4}))$/;
-form.addEventListener('submit', function(event){
+
+    form.addEventListener('submit', function(event){
     event.preventDefault();
     validateName();
     emailValidate();
     validatePassword();
     validateCpf();
     validatePhone();
-})
-
+    })
 
 //Criando uma função para exibir uma mensagem de erro.
 function setError(index){

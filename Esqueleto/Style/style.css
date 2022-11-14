@@ -127,7 +127,7 @@ header > p{
     color: white;
 }
 
-button{
+.buttonCadastro{
     padding: 10px;
     width: 290px;
     border-radius: 10px;
@@ -138,7 +138,7 @@ button{
     border: none;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.575);
 }
-button:hover{
+.buttonCadastro:hover{
     background: linear-gradient(to right, #C12D33, #750d10);
     transition: 0.7s ease;
     cursor: pointer;
