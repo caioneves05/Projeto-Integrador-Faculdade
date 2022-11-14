@@ -25,58 +25,58 @@
         <header>
             <h1>Bibioteca Gourmet</h1>
             <p> A plataforma biblioteca gourmet foi idealizada com o pensamento de expandir a culinária no Brasil.
-            Nossos conteúdos são de fácil acesso e intuitivos, viablizando que qualquer e-book possa ser
-            apresentado em salas de aula, projetos sociais e até mesmo transmitir o primeiro contato com a culinária
-            para as crianças.
-            Nosso conteúdo é totalmente gratuito, e abordamos diversos pontos de vista e receitas sobre a nossa
-            cultura, no qual você poderá ampliar seus conhecimentos, e poderá aprender a fazer aquela receitinha
-            para quem você ama não é mesmo?</p>
+                Nossos conteúdos são de fácil acesso e intuitivos, viablizando que qualquer e-book possa ser
+                apresentado em salas de aula, projetos sociais e até mesmo transmitir o primeiro contato com a culinária
+                para as crianças.
+                Nosso conteúdo é totalmente gratuito, e abordamos diversos pontos de vista e receitas sobre a nossa
+                cultura, no qual você poderá ampliar seus conhecimentos, e poderá aprender a fazer aquela receitinha
+                para quem você ama não é mesmo?</p>
         </header>
         <div class="form-cadastro">
             <h1>
                 Cadastre-se para receber nossos E-Books
             </h1>
 
-            <form action="form-projeto.jsp" method="post" class="cadastramento-inputs" id="form">
+            <form action="form-projeto.php" method="post" class="cadastramento-inputs" id="form">
+
                 <label for="nome" class="label-input">Nome</label>
-                <input type="nome" id="cadastro-nome" placeholder="Enter yout name" name="cadastro-nome"
+                <input type="nome" id="cadastro-nome" placeholder="Enter yout name" name="cadastroNome"
                     oninput="validateName()">
                 <span class="spanRequired">Nome deve ter no mínimo 3 caracteres</span>
 
                 <label for="email" class="label-input">E-mail</label>
-                <input type="email" id="cadastro-email" placeholder="Enter your email" name="cadastro-email"
+                <input type="email" id="cadastro-email" placeholder="Enter your email" name="cadastroEmail"
                     oninput="emailValidate()">
                 <span class="spanRequired">Por favor digite um email válido. </span>
 
 
                 <label for="senha" class="label-input">Senha</label>
-                <input type="password" name="cadastro-senha" id="cadastro-senha" placeholder="**********"
+                <input type="password" name="cadastroSenha" id="cadastro-senha" placeholder="**********"
                     name="cadastro-senha" oninput="validatePassword()">
                 <span class="spanRequired">A senha deve ter no mínimo 8 caracteres.</span>
 
 
                 <label for="cpf" class="label-input">CPF</label>
-                <input type="text" name="cadastro-cpf" id="cadastro-cpf" placeholder="000.000.000-00"
+                <input type="text" name="cadastroCpf" id="cadastro-cpf" placeholder="000.000.000-00"
                     name="cadastro-cpf" oninput="validateCpf()">
                 <span class="spanRequired">Digite um CPF válido.</span>
 
 
                 <label for="telefone" class="label-input">Telefone</label>
-                <input type="tel" id="cadastro-telefone" placeholder="+55 (00)000000000" name="cadastro-telefone"
+                <input type="tel" id="cadastro-telefone" placeholder="+55 (00)000000000" name="cadastroTelefone"
                     oninput="validatePhone()">
                 <span class="spanRequired">Digite um telefone válido.</span>
 
                 <div class="checkbox-style">
-                    <input type="checkbox" name="gastronomia" id="cadastro-gastronomia">
+                    <input type="checkbox" name="cadastroGastronomia" id="cadastro-gastronomia">
                     <label for="cadastro-gastronomia" id="gastronomia">Gastronomia</label>
-                    <input type="checkbox" name="confeitaria" id="cadastro-confeitaria">
+                    <input type="checkbox" name="cadastroConfeitaria" id="cadastro-confeitaria">
                     <label for="confeitaria" id="cadastro_confeitaria">Confeitaria</label>
                 </div>
-                    <button type="submit" id="cadastro-submit" class="buttonCadastro">Cadastrar</button>
+                <button type="submit" id="cadastro-submit" class="buttonCadastro">Cadastrar</button>
             </form>
         </div>
     </div>
 </body>
-
 </html>
-<script src="index.js"></script>
+<script src="index.js"></script>i

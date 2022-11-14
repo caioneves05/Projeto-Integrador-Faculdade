@@ -11,7 +11,7 @@ const phoneRegex = /^(?:(?:\+|00)?(55)\s?)?(?:\(?([1-9][0-9])\)?\s?)(?:((?:9\d|[
     validatePassword();
     validateCpf();
     validatePhone();
-    })
+    }) 
 
 //Criando uma função para exibir uma mensagem de erro.
 function setError(index){
